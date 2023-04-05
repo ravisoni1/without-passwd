@@ -1,0 +1,17 @@
+  933 mkdir /Grras
+  934  cd /Grras/
+  935  ls
+  936  git init
+  937  ls -al 
+  938  vim second.txt
+  939  cat second.txt 
+  940  git status
+  941  git add .
+  942  git status
+  948  git commit -m "without password" .
+  945  git remote add passwd https://github.com/ravisoni1/without-passwd.git
+  946  git remote set-url passwd https://ravisoni1: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@github.com/ravisoni1/without-passwd.git
+  947  git push passwd master
+  949  git log
+  950  git push passwd master
+
